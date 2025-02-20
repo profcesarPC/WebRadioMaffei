@@ -31,6 +31,7 @@ main {
     padding: 20px;
     display: flex;
     gap: 20px; /* Espaço entre o conteúdo principal e a caixa de redes sociais */
+    padding-bottom: 80px; /* Adiciona espaço para o footer */
 }
 
 .conteudo-principal {
@@ -123,6 +124,7 @@ footer {
 @media (max-width: 768px) {
     main {
         flex-direction: column; /* Coloca o conteúdo em uma coluna */
+        padding-bottom: 120px; /* Aumenta o espaço para o footer em dispositivos móveis */
     }
 
     .redes-sociais {
