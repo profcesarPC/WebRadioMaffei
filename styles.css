@@ -8,11 +8,7 @@
     color: #333;
 }
 
-.logo {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Faz a imagem ocupar uma linha inteira */
-    margin: 0 auto 10px; /* Centraliza a imagem e adiciona margem abaixo */}
+
 
 header {
     background-color: #4CAF50;
@@ -64,3 +60,9 @@ footer {
     width: 100%;
     font-size: 12px;
 }
+
+.logo {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz a imagem ocupar uma linha inteira */
+    margin: 0 auto 10px; /* Centraliza a imagem e adiciona margem abaixo */}
