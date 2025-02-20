@@ -118,3 +118,19 @@ footer {
     width: 80px;
     height: auto;
 }
+
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; /* Coloca o conteúdo em uma coluna */
+    }
+
+    .redes-sociais {
+        order: 2; /* Coloca a caixa de redes sociais após o conteúdo principal */
+        margin-top: 20px; /* Adiciona espaço entre o conteúdo e a caixa */
+    }
+
+    .conteudo-principal {
+        order: 1; /* Coloca o conteúdo principal primeiro */
+    }
+}
