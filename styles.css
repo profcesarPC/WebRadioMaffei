@@ -1,14 +1,11 @@
-
- /* Estilos gerais */
- body {
+/* Estilos gerais */
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
-
-
 
 header {
     background-color: #4CAF50;
@@ -54,21 +51,14 @@ footer {
     background-color: #9db8e0;
     color: white;
     text-align: center;
-    padding: 0px;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 12px;
 }
 
-.logo {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Faz a imagem ocupar uma linha inteira */
-    margin: 0 auto 10px; /* Centraliza a imagem e adiciona margem abaixo */}
-
-
-    /* Estilo para o contêiner do logotipo */
+/* Estilos para o logotipo e círculo */
 .logo-container {
     width: 120px; /* Tamanho do círculo */
     height: 120px; /* Tamanho do círculo */
@@ -79,5 +69,10 @@ footer {
     justify-content: center;
     margin: 0 auto 10px; /* Centraliza o círculo e adiciona margem abaixo */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para destacar */
+    overflow: hidden; /* Garante que nada ultrapasse os limites do círculo */
 }
 
+.logo {
+    width: 80px; /* Tamanho do logotipo */
+    height: auto; /* Mantém a proporção da imagem */
+}
