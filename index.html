@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Rádio - Colégio Estadual João Maffei Rosa</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Adicione o FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -17,31 +19,61 @@
     </header>
 
     <main>
-        <section class="player">
-            <h3>Ouça nossa programação ao vivo:</h3>
-            <audio controls>
-                <source src="https://a1-it.newradio.it/stream" type="audio/mpeg">
-                Seu navegador não suporta o elemento de áudio.
-            </audio>
-        </section>
+        <!-- Conteúdo principal -->
+        <div class="conteudo-principal">
+            <section class="player">
+                <h3>Ouça nossa programação ao vivo:</h3>
+                <audio controls>
+                    <source src="https://a1-it.newradio.it/stream" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </section>
 
-        <section class="sobre">
-            <h3>Sobre a Rádio</h3>
-            <p>
-                A Web Rádio do Colégio Estadual João Maffei Rosa é um projeto desenvolvido para levar informação, 
-                entretenimento e cultura para toda a comunidade escolar. Aqui, você pode acompanhar programas 
-                educativos, músicas e muito mais!
-            </p>
-        </section>
+            <section class="sobre">
+                <h3>Sobre a Rádio</h3>
+                <p>
+                    A Web Rádio do Colégio Estadual João Maffei Rosa é um projeto desenvolvido para levar informação, 
+                    entretenimento e cultura para toda a comunidade escolar. Aqui, você pode acompanhar programas 
+                    educativos, músicas e muito mais!
+                </p>
+            </section>
 
-        <section class="contato">
-            <h3>Contato</h3>
-            <p>
-                Para mais informações, entre em contato conosco:<br>
-                Email: radio@colegiojoaomaffeirosa.edu.br<br>
-                Telefone: (XX) XXXX-XXXX
-            </p>
-        </section>
+            <section class="contato">
+                <h3>Contato</h3>
+                <p>
+                    Para mais informações, entre em contato conosco:<br>
+                    Email: radio@colegiojoaomaffeirosa.edu.br<br>
+                    Telefone: (XX) XXXX-XXXX
+                </p>
+            </section>
+        </div>
+
+        <!-- Caixa de redes sociais -->
+        <aside class="redes-sociais">
+            <h3>Siga-nos:</h3>
+            <ul>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/SEUNUMERO" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </li>
+            </ul>
+        </aside>
     </main>
 
     <footer>
