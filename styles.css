@@ -1,56 +1,28 @@
-/* Estilos gerais */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+/* Estilos para o logotipo */
+.logo {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz a imagem ocupar uma linha inteira */
+    margin: 0 auto 10px; /* Centraliza a imagem e adiciona margem abaixo */
 }
 
+/* Ajustes no cabeçalho para acomodar o logotipo */
 header {
     background-color: #4CAF50;
     color: white;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header h1 {
-    margin: 0;
+    margin: 10px 0 5px; /* Ajusta o espaçamento ao redor do título */
     font-size: 2.5em;
 }
 
 header h2 {
-    margin: 5px 0 0;
+    margin: 0; /* Remove a margem padrão */
     font-size: 1.5em;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-h3 {
-    color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 5px;
-}
-
-audio {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 10px;
-}
-
-footer {
-    background-color: #9db8e0;
-    color: white;
-    text-align: center;
-    padding: 0px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 12px;
 }
