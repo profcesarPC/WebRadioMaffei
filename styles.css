@@ -66,3 +66,18 @@ footer {
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Faz a imagem ocupar uma linha inteira */
     margin: 0 auto 10px; /* Centraliza a imagem e adiciona margem abaixo */}
+
+
+    /* Estilo para o contêiner do logotipo */
+.logo-container {
+    width: 120px; /* Tamanho do círculo */
+    height: 120px; /* Tamanho do círculo */
+    background-color: white; /* Cor do círculo */
+    border-radius: 50%; /* Transforma em um círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px; /* Centraliza o círculo e adiciona margem abaixo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para destacar */
+}
+
