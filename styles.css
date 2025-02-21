@@ -1,138 +1,93 @@
-/* Estilos gerais */
+/* Estilos Gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    color: #fff;
+    background-image: url('fundo.jpg'); /* Coloque o caminho da sua imagem aqui */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
     padding: 20px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-header h1 {
+header .logo h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
-header h2 {
-    margin: 5px 0 0;
-    font-size: 1.5em;
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header .social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
 }
 
 main {
     padding: 20px;
-    display: flex;
-    gap: 20px; /* Espaço entre o conteúdo principal e a caixa de redes sociais */
-    padding-bottom: 80px; /* Adiciona espaço para o footer */
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente para melhor legibilidade */
 }
 
-.conteudo-principal {
-    flex: 3; /* Ocupa 3 partes do espaço disponível */
+section {
+    margin-bottom: 40px;
 }
 
-.redes-sociais {
-    flex: 1; /* Ocupa 1 parte do espaço disponível */
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h2 {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    font-size: 2rem;
 }
 
-.redes-sociais h3 {
-    margin-top: 0;
-    color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 5px;
+.player audio {
+    width: 100%;
+    max-width: 400px;
 }
 
-.redes-sociais ul {
+.ultimas-musicas ul {
     list-style: none;
     padding: 0;
 }
 
-.redes-sociais ul li {
-    margin: 10px 0;
-}
-
-.redes-sociais ul li a {
-    text-decoration: none;
-    color: #333;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.redes-sociais ul li a:hover {
-    color: #4CAF50;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-h3 {
-    color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 5px;
-}
-
-audio {
-    width: 100%;
-    max-width: 400px;
-    margin-top: 10px;
+.ultimas-musicas ul li {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
 }
 
 footer {
-    background-color: #9db8e0;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     position: fixed;
-    bottom: 0;
     width: 100%;
-    font-size: 12px;
-}
-
-/* Estilos para o logotipo e círculo */
-.logo-container {
-    width: 120px;
-    height: 120px;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-.logo {
-    width: 80px;
-    height: auto;
-}
-
-/* Media queries para dispositivos móveis */
-@media (max-width: 768px) {
-    main {
-        flex-direction: column; /* Coloca o conteúdo em uma coluna */
-        padding-bottom: 120px; /* Aumenta o espaço para o footer em dispositivos móveis */
-    }
-
-    .redes-sociais {
-        order: 2; /* Coloca a caixa de redes sociais após o conteúdo principal */
-        margin-top: 20px; /* Adiciona espaço entre o conteúdo e a caixa */
-    }
-
-    .conteudo-principal {
-        order: 1; /* Coloca o conteúdo principal primeiro */
-    }
+    bottom: 0;
 }
